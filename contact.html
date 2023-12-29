@@ -1,0 +1,51 @@
+<!-- Zach Girouard personal portfolio contact page-->
+<!Doctype html>
+<html lang = "en-us">
+<head>
+	<meta charset = "UTF - 8">
+	<link rel="stylesheet" href="./style.css/">
+	<title> Personal Portfolio Contact </title>
+</head>
+
+<!-- header and nebraska image -->
+<body>
+	<header> <img id="Huskers" src="https://1000logos.net/wp-content/uploads/2021/07/Nebraska-Cornhuskers-logo.png"> Zachary Girouard </header>
+
+	<!-- navigation links to other pages-->
+	<ul id="Navigation">
+		<li> <a class="navLinks" href="./index.html"> Home </a> </li>
+		<li> <a class="navLinks" href="./about.html"> About </a> </li>
+		<li> <a class="navLinks" href="./projects.html"> Projects </a> </li>
+		<li> <a class="navLinks" href="./contact.html"> Contact </a> </li>
+		<li> <a class="navLinks" href="https://www.linkedin.com/in/zachary-girouard-85832525a/" target="_blank"> LinkedIn </a> </li>
+		<li> <a class="navLinks" href="My Resume - Updated.pdf" target="_blank"> Resume </a> </li>
+		<li> <a class="navLinks" href="https://github.com/ZGirouard" target="_blank"> GitHub </a> </li>
+	</ul>
+	<br>
+	<br>
+	<!-- make a contact me header -->
+	<h1 id="contactHeader"> Contact Me </h1>
+	<!-- create a container for the contact form -->
+	<div class="contactForm">
+		<!-- form that allows user to contact me with queries -->
+		<form action="https://formspree.io/f/mnqeayqe" method="post">
+			<label for="name" class="contactLabel">Name</label>
+			<br>
+			<input type="text" id="name" name="userName" placeholder="Your name...">
+			<br>
+			<br>
+			<label for="email" class="contactLabel">Email</label>
+			<br>
+			<input type="email" id="email" name="userEmail" placeholder="Your email...">
+			<br> 
+			<br>
+			<label for="message" class="contactLabel" >Message</label>
+			<br>
+    		<textarea id="message" name="message" placeholder="Write something..."></textarea>
+    		<br>
+    		<div class="submitContainer">
+    			<input id="submit" type="submit" value="Send">
+    		</div>
+		</form>
+	</div>
+</body>

@@ -1,0 +1,354 @@
+/* header with my name */
+header {
+	font-family: Helvetica, sans-serif;
+	font-size: 50px;
+	text-shadow: 1px 1px rgb(209, 209, 209, 0.7);
+	color: rgb(225, 225, 225, 0.8);
+	background-color: rgb(218,224,242, 0.05);
+	border: solid;
+	border-color: rgb(245, 245, 245, 0.1);
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	padding-top: 10px;
+	padding-bottom: 12px;
+}
+
+/* set background color for the body*/
+body {
+	background-color: #0e0e0f;
+	color: #e1e1e3;
+}
+
+/* set size for nebraska logo */
+#Huskers {
+	height: 1em;
+	width: 1.75em;
+}
+
+/* set style for navigation links */
+#Navigation {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgb(218,224,242,0.05);
+	border: solid;
+	border-color: rgb(245, 245, 245, 0.1);
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	overflow: hidden;
+	position: -webikit-sticky;
+	position: sticky;
+}
+
+/* create borders and spacing between nav links */
+#Navigation li {
+	float: left;
+	display: inline;
+	border-right: 2px solid rgb(245, 245, 245, 0.1);
+}
+
+/* don't make last border in nav links */
+#Navigation li:last-child {
+	border-right: none;
+}
+
+/* set style for nav links */
+.navLinks {
+	font-family: Helvetica, sans-serif;
+	font-size: 24px;
+	display: block;
+	padding-left: 16px;
+	padding-right: 16px;
+	color: rgb(225, 225, 225, 0.8);
+	text-shadow: 1px 1px rgb(209, 209, 209, 0.7);
+	text-decoration: none;
+}
+
+/* change background color when nav link hovered */
+.navLinks:hover {
+	background-color: rgb(218,224,242,0.33);
+}
+
+/* Set text style for large greeting*/
+#Greeting {
+	font-family: Helvetica, sans-serif;
+	font-size: 60px;
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	color: rgb(225, 225, 225);
+	text-shadow: 1px 1px rgb(209, 209, 209, 0.7);
+}
+
+/* set text style for personal description */
+#greetingDescription {
+	font-family: Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: 550;
+	text-align: left;
+	padding-left: 15%;
+	padding-right: 15%;
+	color: rgb(225, 225, 225, 0.6);
+}
+
+/* make a container to center contact button */
+.contactContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* change style of contact me button */
+#contactMe {
+	font-family: Helvetica, sans-serif;
+	font-size: 30px;
+	color: rgb(225, 225, 225);
+	text-shadow: 1px 1px rgb(209, 209, 209, 0.7);
+	text-decoration: none;
+	background-color: rgb(218,224,242,0.05);
+	padding: 16px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: solid;
+	border-color: rgb(245, 245, 245, 0.1);
+}
+
+/* change bg when contact button hovered */
+#contactMe:hover {
+	background-color: rgb(218,224,242,0.33);	
+}
+
+/*------------------------------------------------------*/
+/* CONTACT PAGE SPECIFIC STYLING */
+/* make a header for contact me */
+#contactHeader {
+	display: block;
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	font-size: 60px;
+	color: rgb(225, 225, 225);
+	text-shadow: 2px 2px rgb(209, 209, 209, 0.7);
+	text-decoration: none;
+}
+
+/* set style for contact form */
+.contactForm {
+	display: block;
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	font-weight: 550;
+	font-size: 30px;
+	color: rgb(225, 225, 225);
+	text-shadow: 1px 1px rgb(209, 209, 209, 0.7);
+	text-decoration: none;
+}
+
+/* align contact form text */
+.contactForm form{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+/* create padding between form elements */
+.contactLabel {
+	padding-bottom: 5px;
+}
+
+/* create container to center submit button */
+.submitContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+/* change style of name label */
+#name {
+	font-family: Helvetica, sans-serif;
+	color: rgb(225, 225, 225);
+	background-color: rgb(218,224,242,0.1);
+	border: solid;
+	border-color: rgb(225, 225, 225, 0.3);
+	width: 200px;
+}
+
+/* change style of email label */
+#email {
+	font-family: Helvetica, sans-serif;
+	color: rgb(225, 225, 225);
+	background-color: rgb(218,224,242,0.1);
+	border: solid;
+	border-color: rgb(225, 225, 225, 0.3);
+	width: 200px;
+}
+
+/* change style of message label */
+#message {
+	font-family: Helvetica, sans-serif;
+	color: rgb(225, 225, 225);
+	background-color: rgb(218,224,242,0.1);
+	border: solid;
+	border-color: rgb(225, 225, 225, 0.3);
+	height: 200px;
+	width: 400px;
+}
+
+/* change style of submit button */
+#submit {
+	font-family: Helvetica, sans-serif;
+	font-weight: 550;
+	font-size: 18px;
+	color: rgb(225, 225, 225);
+	text-shadow: 1px 1px rgb(209, 209, 209, 0.7);
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	width: 72px;
+	border: solid;
+	border-color: rgb(245, 245, 245, 0.2);
+	background-color: rgb(218,224,242,0.1);
+}
+
+/*------------------------------------------------------*/
+/* ABOUT PAGE SPECIFIC STYLING */
+/* set margin for page */
+.aboutPage {
+	margin-left: 15%;
+}
+
+/* set style for about header */
+#aboutHeader {
+	font-family: Helvetica, sans-serif;
+	font-size: 34px;
+	color: rgb(225, 225, 225);
+	text-shadow: 1px 1px rgb(209, 209, 209, 0.7);
+}
+
+/* set style for about info */
+.aboutInfo {
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	color: rgb(225, 225, 225);
+	text-shadow: 1px 1px rgb(209, 209, 209, 0.25);
+	text-indent: 16px;
+	max-width: 75%;
+	font-weight: 550;
+}
+
+/* set style for work experience headers */
+.experienceHeader {
+	font-family: Helvetica, sans-serif;
+	color: rgb(225, 225, 225);
+	text-shadow: 1px 1px rgb(209, 209, 209, 0.7);
+	max-width: 75%;
+}
+
+/* set style for work experience sub-headers */
+.experienceHeader h2 {
+	text-shadow: 1px 1px rgb(209, 209, 209, 0.4);
+}
+
+/* set style for work experience sub-headers */
+.experienceHeader h3 {
+	text-shadow: 1px 1px rgb(209, 209, 209, 0.3);
+}
+
+/* set style for work experience text */
+.experienceText {
+	font-family: Helvetica, sans-serif;
+	text-shadow: 1px 1px rgb(209, 209, 209, 0.25);
+	font-size: 16px;
+	max-width: 75%;
+	font-weight: 550;
+}
+
+/* set padding between bullet points in work experience list */
+.experienceText li {
+	padding-bottom: 6px;
+}
+
+/* set style for resume link at bottom of page */
+#resumeLink {
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(225, 225, 225);
+	font-family: Helvetica, sans-serif;
+	text-shadow: 1px 1px rgb(209, 209, 209, 0.25);
+	font-size: 16px;
+	margin-left: 30%;
+	max-width: 75%;
+
+}
+
+/*------------------------------------------------------*/
+/* PROJECTS PAGE SPECIFIC STYLING */
+/* make a header for projects */
+.projectsPage {
+	margin-left: 15%;
+}
+
+#projectsHeader {
+	font-family: Helvetica, sans-serif;
+	font-size: 48px;
+	color: rgb(225, 225, 225);
+	text-shadow: 2px 2px rgb(209, 209, 209, 0.7);
+	text-decoration: none;
+}
+
+.projectsHeader2 {
+	font-family: Helvetica, sans-serif;
+	font-size: 34px;
+	color: rgb(225, 225, 225);
+	text-shadow: 1px 1px rgb(209, 209, 209, 0.7);
+}
+
+.projectDescription {
+	font-family: Helvetica, sans-serif;
+	text-shadow: 1px 1px rgb(209, 209, 209, 0.25);
+	font-size: 16px;
+	max-width: 75%;
+	font-weight: 550;
+	text-indent: 16px;
+}
+.projectImages {
+	display: flex;
+	justify-content: center;
+	max-width: 75%;
+}
+
+.projectImages2 {
+	display: flex;
+	justify-content: center;
+	max-width: 75%;
+}
+
+.projectImages img {
+	border: solid;
+	border-color: rgb(245, 245, 245, 0.85);
+	margin: 6px;
+}
+
+.projectImages2 img {
+	border: solid;
+	border-color: rgb(245, 245, 245, 0.85);
+	margin: 6px;
+}
+
+/* set style for resume link at bottom of page */
+#githubLink {
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(225, 225, 225);
+	font-family: Helvetica, sans-serif;
+	text-shadow: 1px 1px rgb(209, 209, 209, 0.25);
+	font-size: 16px;
+	margin-left: 30%;
+	max-width: 75%;
+
+}
